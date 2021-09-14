@@ -1,0 +1,53 @@
+{
+  "name": "@material-tailwind/react",
+  "homepage": "https://material-tailwind.com/",
+  "version": "0.3.4",
+  "description": "Material Tailwind is an easy-to-use components library for Tailwind CSS and Material Design.",
+  "repository": "https://github.com/creativetimofficial/material-tailwind",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
+    "build:tailwind": "NODE_ENV=production postcss ./assets/styles/index.css -o ./lib/tailwind.css",
+    "assets:package": "cp package.json lib/package.json && cp README.md lib/README.md && cp LICENSE.md lib/LICENSE.md && cp ISSUE_TEMPLATE.md lib/ISSUE_TEMPLATE.md",
+    "make:package": "rm -rf lib/ && babel components/**/* -d lib --ignore components/Documentation && create-index ./lib",
+    "copy:module": "cp -r node_modules/material-ripple-effects lib/ && npm run build:tailwind",
+    "prep:package": "cp -r lib-babel.config.json babel.config.json && npm run make:package && npm run assets:package && rm -rf babel.config.json && npm run copy:module",
+    "publish:package": "npm run prep:package && cd lib && npm publish --access=public && cd ../",
+    "deploy": "npm run build && npm run export && cp CNAME out/CNAME && touch out/.nojekyll && git add out/ && git commit -m \"ready to deploy\" && git push && git push origin --delete gh-pages && git subtree push --prefix out origin gh-pages"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/runtime": "^7.14.0",
+    "@tippyjs/react": "^4.2.5",
+    "material-icons": "^0.6.4",
+    "material-ripple-effects": "^2.0.1",
+    "next": "^10.2.3",
+    "next-images": "^1.7.0",
+    "npm": "^7.14.0",
+    "path": "^0.12.7",
+    "postcss-import": "^14.0.2",
+    "react": "17.0.2",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "17.0.2",
+    "react-syntax-highlighter": "^15.4.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/parser": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "autoprefixer": "^10.2.6",
+    "create-index": "^2.6.0",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.4"
+  }
+}
