@@ -28,7 +28,8 @@ yarn create next-app --example with-tailwindcss with-tailwindcss-app
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-![](img/1.png)
+![](img/4.png)
 ![](img/2.png)
 ![](img/3.png)
-![](img/4.png)
+![](img/1.png)
+
