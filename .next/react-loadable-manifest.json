@@ -1,4 +1,10 @@
 {
+  "../components/TextEditor.js -> react-draft-wysiwyg": {
+    "id": "./node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.js",
+    "files": [
+      "static/chunks/node_modules_react-draft-wysiwyg_dist_react-draft-wysiwyg_js.js"
+    ]
+  },
   "../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
     "id": "./node_modules/next/dist/client/dev/noop.js",
     "files": [

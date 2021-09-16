@@ -19,7 +19,7 @@ exports.modules = {
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"db\": () => (/* binding */ db)\n/* harmony export */ });\n/* harmony import */ var _firebase__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./firebase */ \"./firebase.js\");\n\nconst firebaseConfig = {\n  apiKey: \"AIzaSyCwW5pf13fHgznvge9Fev94lyiqvFU06zM\",\n  authDomain: \"docs-clone-9f282.firebaseapp.com\",\n  projectId: \"docs-clone-9f282\",\n  storageBucket: \"docs-clone-9f282.appspot.com\",\n  messagingSenderId: \"602490236198\",\n  appId: \"1:602490236198:web:64bd0b8f96dbfdfc57a5e7\"\n};\nconst app = !_firebase__WEBPACK_IMPORTED_MODULE_0__.default.apps.length ? _firebase__WEBPACK_IMPORTED_MODULE_0__.default.intializeApp(firebaseConfig) : _firebase__WEBPACK_IMPORTED_MODULE_0__.default.app();\nconst db = app.fireStore();\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9maXJlYmFzZS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFBO0FBQ0EsTUFBTUMsY0FBYyxHQUFHO0FBQ25CQyxFQUFBQSxNQUFNLEVBQUUseUNBRFc7QUFFbkJDLEVBQUFBLFVBQVUsRUFBRSxrQ0FGTztBQUduQkMsRUFBQUEsU0FBUyxFQUFFLGtCQUhRO0FBSW5CQyxFQUFBQSxhQUFhLEVBQUUsOEJBSkk7QUFLbkJDLEVBQUFBLGlCQUFpQixFQUFFLGNBTEE7QUFNbkJDLEVBQUFBLEtBQUssRUFBRTtBQU5ZLENBQXZCO0FBU0UsTUFBTUMsR0FBRyxHQUFHLENBQUNSLDBEQUFELEdBQ1ZBLDJEQUFBLENBQXNCQyxjQUF0QixDQURVLEdBRVZELGtEQUFBLEVBRkY7QUFJQSxNQUFNWSxFQUFFLEdBQUNKLEdBQUcsQ0FBQ0ssU0FBSixFQUFUIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vZmlyZWJhc2UuanM/MmFkYyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZmlyZWJhc2UgZnJvbSAnLi9maXJlYmFzZSc7XG5jb25zdCBmaXJlYmFzZUNvbmZpZyA9IHtcbiAgICBhcGlLZXk6IFwiQUl6YVN5Q3dXNXBmMTNmSGd6bnZnZTlGZXY5NGx5aXF2RlUwNnpNXCIsXG4gICAgYXV0aERvbWFpbjogXCJkb2NzLWNsb25lLTlmMjgyLmZpcmViYXNlYXBwLmNvbVwiLFxuICAgIHByb2plY3RJZDogXCJkb2NzLWNsb25lLTlmMjgyXCIsXG4gICAgc3RvcmFnZUJ1Y2tldDogXCJkb2NzLWNsb25lLTlmMjgyLmFwcHNwb3QuY29tXCIsXG4gICAgbWVzc2FnaW5nU2VuZGVySWQ6IFwiNjAyNDkwMjM2MTk4XCIsXG4gICAgYXBwSWQ6IFwiMTo2MDI0OTAyMzYxOTg6d2ViOjY0YmQwYjhmOTZkYmZkZmM1N2E1ZTdcIlxuICB9O1xuXG4gIGNvbnN0IGFwcCA9ICFmaXJlYmFzZS5hcHBzLmxlbmd0aCBcbiAgPyBmaXJlYmFzZS5pbnRpYWxpemVBcHAoZmlyZWJhc2VDb25maWcpIFxuICA6IGZpcmViYXNlLmFwcCgpO1xuXG4gIGNvbnN0IGRiPWFwcC5maXJlU3RvcmUoKTtcbiAgZXhwb3J0IHsgZGIgfTsiXSwibmFtZXMiOlsiZmlyZWJhc2UiLCJmaXJlYmFzZUNvbmZpZyIsImFwaUtleSIsImF1dGhEb21haW4iLCJwcm9qZWN0SWQiLCJzdG9yYWdlQnVja2V0IiwibWVzc2FnaW5nU2VuZGVySWQiLCJhcHBJZCIsImFwcCIsImFwcHMiLCJsZW5ndGgiLCJpbnRpYWxpemVBcHAiLCJkYiIsImZpcmVTdG9yZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./firebase.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"db\": () => (/* binding */ db)\n/* harmony export */ });\n/* harmony import */ var firebase__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! firebase */ \"firebase\");\n/* harmony import */ var firebase__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(firebase__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! firebase/firestore */ \"firebase/firestore\");\n/* harmony import */ var firebase_firestore__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(firebase_firestore__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst firebaseConfig = {\n  apiKey: \"AIzaSyCwW5pf13fHgznvge9Fev94lyiqvFU06zM\",\n  authDomain: \"docs-clone-9f282.firebaseapp.com\",\n  projectId: \"docs-clone-9f282\",\n  storageBucket: \"docs-clone-9f282.appspot.com\",\n  messagingSenderId: \"602490236198\",\n  appId: \"1:602490236198:web:64bd0b8f96dbfdfc57a5e7\"\n};\nconst app = !(firebase__WEBPACK_IMPORTED_MODULE_0___default().apps.length) ? firebase__WEBPACK_IMPORTED_MODULE_0___default().initializeApp(firebaseConfig) : firebase__WEBPACK_IMPORTED_MODULE_0___default().app();\nconst db = app.firestore();\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9maXJlYmFzZS5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBO0FBQ0E7QUFFQSxNQUFNQyxjQUFjLEdBQUc7QUFDbkJDLEVBQUFBLE1BQU0sRUFBRSx5Q0FEVztBQUVuQkMsRUFBQUEsVUFBVSxFQUFFLGtDQUZPO0FBR25CQyxFQUFBQSxTQUFTLEVBQUUsa0JBSFE7QUFJbkJDLEVBQUFBLGFBQWEsRUFBRSw4QkFKSTtBQUtuQkMsRUFBQUEsaUJBQWlCLEVBQUUsY0FMQTtBQU1uQkMsRUFBQUEsS0FBSyxFQUFFO0FBTlksQ0FBdkI7QUFTRSxNQUFNQyxHQUFHLEdBQUcsQ0FBRVIsNkRBQUYsR0FDVkEsNkRBQUEsQ0FBdUJDLGNBQXZCLENBRFUsR0FFVkQsbURBQUEsRUFGRjtBQUtBLE1BQU1ZLEVBQUUsR0FBQ0osR0FBRyxDQUFDSyxTQUFKLEVBQVQiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9maXJlYmFzZS5qcz8yYWRjIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAgZmlyZWJhc2UgZnJvbSBcImZpcmViYXNlXCJcbmltcG9ydCBcImZpcmViYXNlL2ZpcmVzdG9yZVwiO1xuXG5jb25zdCBmaXJlYmFzZUNvbmZpZyA9IHtcbiAgICBhcGlLZXk6IFwiQUl6YVN5Q3dXNXBmMTNmSGd6bnZnZTlGZXY5NGx5aXF2RlUwNnpNXCIsXG4gICAgYXV0aERvbWFpbjogXCJkb2NzLWNsb25lLTlmMjgyLmZpcmViYXNlYXBwLmNvbVwiLFxuICAgIHByb2plY3RJZDogXCJkb2NzLWNsb25lLTlmMjgyXCIsXG4gICAgc3RvcmFnZUJ1Y2tldDogXCJkb2NzLWNsb25lLTlmMjgyLmFwcHNwb3QuY29tXCIsXG4gICAgbWVzc2FnaW5nU2VuZGVySWQ6IFwiNjAyNDkwMjM2MTk4XCIsXG4gICAgYXBwSWQ6IFwiMTo2MDI0OTAyMzYxOTg6d2ViOjY0YmQwYjhmOTZkYmZkZmM1N2E1ZTdcIlxuICB9O1xuXG4gIGNvbnN0IGFwcCA9ICEoZmlyZWJhc2UuYXBwcy5sZW5ndGgpXG4gID8gZmlyZWJhc2UuaW5pdGlhbGl6ZUFwcChmaXJlYmFzZUNvbmZpZykgXG4gIDogZmlyZWJhc2UuYXBwKCk7XG5cblxuICBjb25zdCBkYj1hcHAuZmlyZXN0b3JlKCk7XG4gIGV4cG9ydCB7IGRiIH07XG4iXSwibmFtZXMiOlsiZmlyZWJhc2UiLCJmaXJlYmFzZUNvbmZpZyIsImFwaUtleSIsImF1dGhEb21haW4iLCJwcm9qZWN0SWQiLCJzdG9yYWdlQnVja2V0IiwibWVzc2FnaW5nU2VuZGVySWQiLCJhcHBJZCIsImFwcCIsImFwcHMiLCJsZW5ndGgiLCJpbml0aWFsaXplQXBwIiwiZGIiLCJmaXJlc3RvcmUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./firebase.js\n");
 
 /***/ }),
 
@@ -40,6 +40,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 module.exports = require("@next-auth/firebase-adapter");
+
+/***/ }),
+
+/***/ "firebase":
+/*!***************************!*\
+  !*** external "firebase" ***!
+  \***************************/
+/***/ ((module) => {
+
+module.exports = require("firebase");
+
+/***/ }),
+
+/***/ "firebase/firestore":
+/*!*************************************!*\
+  !*** external "firebase/firestore" ***!
+  \*************************************/
+/***/ ((module) => {
+
+module.exports = require("firebase/firestore");
 
 /***/ }),
 
